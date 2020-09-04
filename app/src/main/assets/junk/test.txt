@@ -1,0 +1,5 @@
+We see no big surprises here, other than finding that loading simple text from an InputStream
+is rather verbose in Java. We wrote a little method called loadTextFile() that will squeeze all the
+bytes out of the InputStream and return the bytes in the form of a string. We assume that the text file
+is encoded as UTF-8. The rest is just catching and handling various exceptions. Figure 4-10 shows the
+output of this little activity
